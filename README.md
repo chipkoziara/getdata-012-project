@@ -1,6 +1,6 @@
 # Tidy Sensor Data 
 ## Readme
-Included is an R script called run_analysis.R that does the following (pursuant to the [Getting and Cleaning Data Coursera class's class project](https://class.coursera.org/getdata-012/human_grading/view/courses/973499/assessments/3/submissions):
+Included is an R script called run_analysis.R that does the following, pursuant to the [Getting and Cleaning Data Coursera class's class project](https://class.coursera.org/getdata-012/human_grading/view/courses/973499/assessments/3/submissions):
 
 1. Merges the training and the test sets to create one data set.
 2. Extracts only the measurements on the mean and standard deviation for each measurement. 
@@ -83,7 +83,7 @@ This satisfies Step 2's prompt to extract only the measurements on the mean and 
 
 To meet Step 3's prompt to use descriptive activity names to name the activities in the data set, the second column ('activity_label') of 'id_mean_std' is assigned labels as defined in the file 'activity_labels.txt' using 'factor', with levels 1 through 6, which are the descriptive activity names the question is asking for.
 
-Step 4's prompt was satisfied in the steps outlined earlier, applying appropriate labels to the data set with descriptive variable names.
+Step 4's prompt was partially satisfied in the steps outlined earlier, applying appropriate labels to the data set with descriptive variable names. These labels were used to select the appropriate columns earlier in the script. New, cleaner formatted labels are assigned with 'colnames' from lines 100-187.
 
 To satisfy Step 5's prompt, the script uses the data set completed by Step 4 to create a second, independent tidy data set with the average of each variable for each activity and each subject.
 
