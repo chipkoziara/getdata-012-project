@@ -1,14 +1,25 @@
 # DATA DICTIONARY - tidy_means.txt
 
-The codebook still has the specific description of the tidy data file contents (and you mention that it exists and it's role in the ReadMe)
-
 The names in this data dictionary are based on the variable names included in 'features.txt'.
 
+Value units follow this convention, unless otherwise noted:
+
+* *contains .mean*: Mean value of measurements specified captured by the sensors.
+* *contains .std*: Standard deviation of measurements specified captured by the sensors.
+* *contains angle*: Angle between specified vectors, which contain means of measurements captuered by the sensors.
+
 **subject**
-A variable identifying which subject is being measured in the current observation. 30 individuals participated, so the values are numbers ranging from 1-30.
+A variable identifying which subject is being measured in the current observation. 30 individuals participated, so the values are integers ranging from 1:30.
 
 **activity_label**
-A variable including the different activities that were tracked, including: "WALKING", "WALKING_UPSTAIRS", "WALKING_DOWNSTAIRS", "SITTING", "STANDING", "LAYING".
+A variable including the different activities that were tracked, including:
+
+1 "WALKING"
+2 "WALKING_UPSTAIRS"
+3 "WALKING_DOWNSTAIRS"
+4 "SITTING"
+5 "STANDING"
+6 "LAYING"
 
 **tBodyAcc.mean.X**
 Mean of tBodyAcc for the X measurement.
@@ -267,3 +278,5 @@ Standard deviation of fBodyGyroMag.
 
 **fBodyGyroJerkMag.std**
 Standard deviation of fBodyGyroJerkMag.
+
+
