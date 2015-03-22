@@ -4,266 +4,266 @@ The codebook still has the specific description of the tidy data file contents (
 
 The names in this data dictionary are based on the variable names included in 'features.txt'.
 
-*subject*
+**subject**
 A variable identifying which subject is being measured in the current observation. 30 individuals participated, so the values are numbers ranging from 1-30.
 
-*activity_label*
+**activity_label**
 A variable including the different activities that were tracked, including: "WALKING", "WALKING_UPSTAIRS", "WALKING_DOWNSTAIRS", "SITTING", "STANDING", "LAYING".
 
-*tBodyAcc.mean.X*
+**tBodyAcc.mean.X**
 Mean of tBodyAcc for the X measurement.
 
-*tBodyAcc.mean.Y*
+**tBodyAcc.mean.Y**
 Mean of tBody Acc for the Y measurement.
 
-*tBodyAcc.mean.Z*
+**tBodyAcc.mean.Z**
 Mean of tBodyAcc for the Z measurement.
 
-*tGravityAcc.mean.X*
+**tGravityAcc.mean.X**
 Mean of tGravityAcc for the X measurement.
 
-*tGravityAcc.mean.Y*
+**tGravityAcc.mean.Y**
 Mean of tGravityAcc for the Y measurement.
 
-*tGravityAcc.mean.Z*
+**tGravityAcc.mean.Z**
 Mean of tGravityAcc for the Z measurement.
 
-*tBodyAccJerk.mean.X*
+**tBodyAccJerk.mean.X**
 Mean of tBodyAccJerk for the X measurement.
 
-*tBodyAccJerk.mean.Y*
+**tBodyAccJerk.mean.Y**
 Mean of tBodyAccJerk for the Y measurement.
 
-*tBodyAccJerk.mean.Z*
+**tBodyAccJerk.mean.Z**
 Mean of tBodyAccJerk for the Z measurement.
 
-*tBodyGyro.mean.X*
+**tBodyGyro.mean.X**
 Mean of tBodyGyro for the X measurement.
 
-*tBodyGyro.mean.Y*
+**tBodyGyro.mean.Y**
 Mean of tBodyGyro for the Y measurement.
 
-*tBodyGyro.mean.Z*
+**tBodyGyro.mean.Z**
 Mean of tBodyGyro for the Z measurement.
 
-*tBodyGyroJerk.mean.X*
+**tBodyGyroJerk.mean.X**
 Mean of tBodyGyroJerk for the X measurement.
 
-*tBodyGyroJerk.mean.Y*
+**tBodyGyroJerk.mean.Y**
 Mean of tBodyGyroJerk for the Y measurement.
 
-*tBodyGyroJerk.mean.Z*
+**tBodyGyroJerk.mean.Z**
 Mean of tBodyGyroJerk for the Z measurement. 
 
-*tBodyAccMag.mean*
+**tBodyAccMag.mean**
 Mean of tBodyAccMag.
 
-*tGravityAccMag.mean*
+**tGravityAccMag.mean**
 Mean of tGravityAccMag.
 
-*tBodyAccJerkMag.mean*
+**tBodyAccJerkMag.mean**
 Mean of tBodyAccJerkMag.
 
-*tBodyGyroMag.mean*
+**tBodyGyroMag.mean**
 Mean of tBodyGyroMag.
 
-*tBodyGyroJerkMag.mean*
+**tBodyGyroJerkMag.mean**
 Mean of tBodyGyroJerkMag.
 
-*fBodyAcc.mean.X*
+**fBodyAcc.mean.X**
 Mean of fBodyAcc for the X measurement.
 
-*fBodyAcc.mean.Y*
+**fBodyAcc.mean.Y**
 Mean of fBodyAcc for the Y measurement.
 
-*fBodyAcc.mean.Z*
+**fBodyAcc.mean.Z**
 Mean of fBodyAcc for the Z measurement.
 
-*fBodyAcc.meanFreq.X*
+**fBodyAcc.meanFreq.X**
 Mean of the frequency of fBodyAcc for the X measurement.
 
-*fBodyAcc.meanFreq.Y*
+**fBodyAcc.meanFreq.Y**
 Mean of the frequency of fBodyAcc for the Y measurement.
 
-*fBodyAcc.meanFreq.Z*
+**fBodyAcc.meanFreq.Z**
 Mean of the frequency of fBodyAcc for the Z measurement.
 
-*fBodyAccJerk.mean.X*
+**fBodyAccJerk.mean.X**
 Mean of fBodyAccJerk for the X measurement.
 
-*fBodyAccJerk.mean.Y*
+**fBodyAccJerk.mean.Y**
 Mean of fBodyAccJerk for the Y measurement.
 
-*fBodyAccJerk.mean.Z*
+**fBodyAccJerk.mean.Z**
 Mean of fBodyAccJerk for the Z measurement.
 
-*fBodyAccJerk.meanFreq.X*
+**fBodyAccJerk.meanFreq.X**
 Mean of the frequency of fBodyAccJerk for the X measurement.
 
-*fBodyAccJerk.meanFreq.Y*
+**fBodyAccJerk.meanFreq.Y**
 Mean of the frequency of fBodyAccJerk for the Y measurement.
 
-*fBodyAccJerk.meanFreq.Z*
+**fBodyAccJerk.meanFreq.Z**
 Mean of the frequency of fBodyAccJerk for the Z measurement.
 
-*fBodyGyro.mean.X*
+**fBodyGyro.mean.X**
 Mean of fBodyGyro for the X measurement.
 
-*fBodyGyro.mean.Y*
+**fBodyGyro.mean.Y**
 Mean of fBodyGyro for the Y measurement.
 
-*fBodyGyro.mean.Z*
+**fBodyGyro.mean.Z**
 Mean of fBodyGyro for the Z measurement.
 
-*fBodyGyro.meanFreq.X*
+**fBodyGyro.meanFreq.X**
 Mean of the frequency of fBodyGyro for the X measurement.
 
-*fBodyGyro.meanFreq.Y*
+**fBodyGyro.meanFreq.Y**
 Mean of the frequency of fBodyGyro for the Y measurement.
 
-*fBodyGyro.meanFreq.Z*
+**fBodyGyro.meanFreq.Z**
 Mean of the frequency of fBodyGyro for the Z measurement.
 
-*fBodyAccMag.mean*
+**fBodyAccMag.mean**
 Mean of fBodyAccMag.
 
-*fBodyAccMag.meanFreq*
+**fBodyAccMag.meanFreq**
 Mean of the frequency of fBodyAccMag.
 
-*fBodyAccJerkMag.mean*
+**fBodyAccJerkMag.mean**
 Mean of the frequency of fBodyAccJerkMag.
 
-*fBodyAccJerkMag.meanFreq*
+**fBodyAccJerkMag.meanFreq**
 Mean of the frequency of fBodyAccJerkMag.
 
-*fBodyGyroMag.mean*
+**fBodyGyroMag.mean**
 Mean of fBodyGyroMag.
 
-*fBodyGyroMag.meanFreq*
+**fBodyGyroMag.meanFreq**
 Mean of the frequency of fBodyGyroMag.
 
-*fBodyGyroJerkMag.mean*
+**fBodyGyroJerkMag.mean**
 Mean of fBodyGyroJerkMag.
 
-*fBodyGyroJerkMag.meanFreq*
+**fBodyGyroJerkMag.meanFreq**
 Mean of the frequency of fBodyGyroJerkMag.
 
-*angle.tBodyAccMean.gravityMean*
+**angle.tBodyAccMean.gravityMean**
 Angle of the mean tBodyAcc measurement and the mean of gravity.
 
-*angle.tBodyAccJerkMean.gravityMean*
+**angle.tBodyAccJerkMean.gravityMean**
 Angle of the mean tBodyAccJerk measurement and the mean of gravity.
 
-*angle.tBodyGyroMean.gravityMean*
+**angle.tBodyGyroMean.gravityMean**
 Angle of the mean tBodyGyro measurement and the mean of gravity.
 
-*angle.tBodyGyroJerkMean.gravityMean*
+**angle.tBodyGyroJerkMean.gravityMean**
 Angle of the mean tBodyGyroJerk measurement and the mean of gravity.
 
-*angle.XMean.gravityMean*
+**angle.XMean.gravityMean**
 Angle of the mean X measurement and the mean of gravity.
 
-*angle.YMean.gravityMean*
+**angle.YMean.gravityMean**
 Angle of the mean Y measurement and the mean of gravity.
 
-*angle.ZMean.gravityMean*
+**angle.ZMean.gravityMean**
 Angle of the mean Z measurement and the mean of gravity.
 
-*tBodyAcc.std.X*
+**tBodyAcc.std.X**
 Standard deviation of tBodyAcc for the X measurement.
 
-*tBodyAcc.std.Y*
+**tBodyAcc.std.Y**
 Standard deviation of tBodyAcc for the Y measurement.
 
-*tBodyAcc.std.Z*
+**tBodyAcc.std.Z**
 Standard deviation of tBodyAcc for the Z measurement.
 
-*tGravityAcc.std.X*
+**tGravityAcc.std.X**
 Standard deviation of tGravityAcc for the X measurement.
 
-*tGravityAcc.std.Y*
+**tGravityAcc.std.Y**
 Standard deviation of tGravityAcc for the Y measurement.
 
-*tGravityAcc.std.Z*
+**tGravityAcc.std.Z**
 Standard deviation of tGravityAcc for the Z measurement.
 
-*tBodyAccJerk.std.X*
+**tBodyAccJerk.std.X**
 Standard deviation of tBodyAccJerk for the X measurement.
 
-*tBodyAccJerk.std.Y*
+**tBodyAccJerk.std.Y**
 Standard deviation of tBodyAccJerk for the Y measurement.
 
-*tBodyAccJerk.std.Z*
+**tBodyAccJerk.std.Z**
 Standard deviation of tBodyAccJerk for the Z measurement.
 
-*tBodyGyro.std.X*
+**tBodyGyro.std.X**
 Standard deviation of tBodyGyro for the X measurement.
 
-*tBodyGyro.std.Y*
+**tBodyGyro.std.Y**
 Standard deviation of tBodyGyro for the Y measurement.
 
-*tBodyGyro.std.Z*
+**tBodyGyro.std.Z**
 Standard deviation of tBodyGyro for the Z measurement.
 
-*tBodyGyroJerk.std.X*
+**tBodyGyroJerk.std.X**
 Standard deviation of tBodyGyroJerk for the X measurement.
 
-*tBodyGyroJerk.std.Y*
+**tBodyGyroJerk.std.Y**
 Standard deviation of tBodyGyroJerk for the Y measurement.
 
-*tBodyGyroJerk.std.Z*
+**tBodyGyroJerk.std.Z**
 Standard deviation of tBodyGyroJerk for the Z measurement.
 
-*tBodyAccMag.std*
+**tBodyAccMag.std**
 Standard deviation of tBodyAccMag.
 
-*tGravityAccMag.std*
+**tGravityAccMag.std**
 Standard deviation of tGravityAccMag.
 
-*tBodyAccJerkMag.std*
+**tBodyAccJerkMag.std**
 Standard deviation of tBodyAccJerkMag.
 
-*tBodyGyroMag.std*
+**tBodyGyroMag.std**
 Standard deviation of tBodyGyroMag.
 
-*tBodyGyroJerkMag.std*
+**tBodyGyroJerkMag.std**
 Standard deviation of tBodyGyroJerkMag.
 
-*fBodyAcc.std.X*
+**fBodyAcc.std.X**
 Standard deviation of fBodyAcc for the X measurement.
 
-*fBodyAcc.std.Y*
+**fBodyAcc.std.Y**
 Standard deviation of fBodyAcc for the Y measurement.
 
-*fBodyAcc.std.Z*
+**fBodyAcc.std.Z**
 Standard deviation of fBodyAcc for the Z measurement.
 
-*fBodyAccJerk.std.X*
+**fBodyAccJerk.std.X**
 Standard deviation of fBodyAccJerk for the X measurement.
 
-*fBodyAccJerk.std.Y*
+**fBodyAccJerk.std.Y**
 Standard deviation of fBodyAccJerk for the Y measurement.
 
-*fBodyAccJerk.std.Z*
+**fBodyAccJerk.std.Z**
 Standard deviation of fBodyAccJerk for the Z measurement.
 
-*fBodyGyro.std.X*
+**fBodyGyro.std.X**
 Standard deviation of fBodyGyro for the X measurement.
 
-*fBodyGyro.std.Y*
+**fBodyGyro.std.Y**
 Standard deviation of fBodyGyro for the Y measurement.
 
-*fBodyGyro.std.Z*
+**fBodyGyro.std.Z**
 Standard deviation of fBodyGyro for the Z measurement.
 
-*fBodyAccMag.std*
+**fBodyAccMag.std**
 Standard deviation of fBodyAccMag.
 
-*fBodyAccJerkMag.std*
+**fBodyAccJerkMag.std**
 Standard deviation of fBodyAccJerkMag.
 
-*fBodyGyroMag.std*
+**fBodyGyroMag.std**
 Standard deviation of fBodyGyroMag.
 
-*fBodyGyroJerkMag.std*
+**fBodyGyroJerkMag.std**
 Standard deviation of fBodyGyroJerkMag.
