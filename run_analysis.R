@@ -207,7 +207,7 @@ tidy_means <- by_part %>% summarise_each(funs(mean))
 # writes a file containing the tidy_means table to the './UCI HAR Dataset'
 # directory. this file contains an independent tidy data set with the average
 # of each variable for each activity and each subject
-write.table(tidy_means, "./UCI HAR Dataset/tidy_means.txt", quote = FALSE, row.names = FALSE)
+write.table(tidy_means, "./tidy_means.txt", quote = FALSE, row.names = FALSE)
 
 ## End of Question 5.
 ## from the data set in step 4, created a second, independent tidy data set 
