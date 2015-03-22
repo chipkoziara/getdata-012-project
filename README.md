@@ -1,6 +1,6 @@
 # Tidy Sensor Data 
 ## Readme
-Included is an R script called run_analysis.R that does the following (pursuant to the [Getting and Cleaning Data Coursera class's class project](https://class.coursera.org/getdata-012/human_grading/view/courses/973499/assessments/3/submissions):
+Included is an R script called run_analysis.R that does the following, pursuant to the [Getting and Cleaning Data Coursera class's class project](https://class.coursera.org/getdata-012/human_grading/view/courses/973499/assessments/3/submissions):
 
 1. Merges the training and the test sets to create one data set.
 2. Extracts only the measurements on the mean and standard deviation for each measurement. 
